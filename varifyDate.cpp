@@ -90,11 +90,12 @@ int main() {
         int leap_year = *y;
             cout<<"\tHere is below the next twenty Leap years are: "<<endl;
         for(int i=0;i<20;i++){
-            if(i%4==0){
-                cout<<endl;
-            }
+           
             leap_year+=4;
-            cout<<"\t"<<leap_year;
+            cout<<leap_year;
+             if(i!=19){
+                cout<<",";
+            }
         }
     }
     cout<<endl;
