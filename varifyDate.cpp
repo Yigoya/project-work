@@ -22,12 +22,15 @@ int main() {
 
    int day,month,year;
    bool isvalid=false;
-   string date;
+   int date;
    cout<<"Please enter a date (dd mm yyyy eg. 01072023): ";
    cin>>date;
-   day = stoi(date.substr(0,2));
+   /*day = stoi(date.substr(0,2));
    month = stoi(date.substr(2,2));
-   year = stoi(date.substr(4));
+   year = stoi(date.substr(4));*/
+   day = date/1000000;
+   month = (date/10000)%100;
+   year = date%10000;
    int* d = &day;
    int* m = &month;
    int* y = &year;
@@ -94,6 +97,7 @@ int main() {
             cout<<"\t"<<leap_year;
         }
     }
+    cout<<endl;
     string c;
     cout<<"do you want to try again (yes) or (no)"<<endl;
     cin>>c;
