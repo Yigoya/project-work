@@ -1,6 +1,6 @@
 # project-work
-project problems
-1. Write a C++ application that read a date as integer and extracts a day,
+# project problems
+1. ./varifyDate.cpp => Write a C++ application that read a date as integer and extracts a day,
 month and year and determine whether the date is valid. If the program is
 given a valid date, an appropriate message is displayed. If instead the
 program is given an invalid date, an explanatory message is given.
@@ -10,7 +10,7 @@ then program prints the next 20 leap years otherwise a message that says
 "A valid date but not a Leap Year". Your program should also consider that century
 year cannot be leap year unless it is divisible by 400. See the example below for
 the expected input/output behavior for a valid date.
-2. Kokebe Tsibah secondary and preparatory prepare school closing function (gathering)
+2. ./ticketSell.cpp => Kokebe Tsibah secondary and preparatory prepare school closing function (gathering)
 and invite various concerned body. The people who attend the school function categorized 
 in to four groups and given a code. Accordingly, 1 represents an infant,
 2 represents a child, 3 represents a teenager, and 4 represents an adult.
@@ -21,3 +21,4 @@ entrance ticket number, person code as 1, 2, 3 or 4, and entrance fee. The fee s
 and display total numbers of people attend the function and total amount of ticket sales.
 Also the program should display a list of how many infants, children, teenagers, and adults
 were at the school function along with category codes. You should write the program without using array.
+3. ./Shape.cpp make c++code draw a shape
