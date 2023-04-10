@@ -1,5 +1,5 @@
 # project-work
-# project problems
+## project problems
 1. ./varifyDate.cpp => Write a C++ application that read a date as integer and extracts a day,
 month and year and determine whether the date is valid. If the program is
 given a valid date, an appropriate message is displayed. If instead the
