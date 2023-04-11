@@ -40,7 +40,7 @@ int main() {
     if((*d<=31 &&*d>=1) && (*m<=12&& *m>=1)){
 
        switch(*d){
-        case 29: if(leap(*y)==false){cout<<"Invalid day of month 29"; break;}
+        case 29: if(leap(*y)==false && *m==2){cout<<"Invalid day of month 29"; break;}
         case 28:
 
             if(*m==2){
