@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"enter number: ";
+    cout<<"enter number less than 10: ";
     cin>>n;
     for(int i=0;i<=n;i++){
         int c=0;
